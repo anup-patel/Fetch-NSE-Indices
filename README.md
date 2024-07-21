@@ -16,7 +16,7 @@
 
 ### How to use
 ```
-from fetch_market_indices import fetch_live_market_indices
+from fetchNSEindices import fetch_live_market_indices
 
 # Fetch the live market indices
 indices = fetch_live_market_indices()
