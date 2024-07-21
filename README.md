@@ -15,9 +15,8 @@
 - beautifulsoup4
 
 ### How to use
-
-<code>
-from fetchNSEindices import fetch_live_market_indices
+```
+from fetch_market_indices import fetch_live_market_indices
 
 # Fetch the live market indices
 indices = fetch_live_market_indices()
@@ -28,5 +27,6 @@ if indices:
         print(f"{index}: LTP = {data['LTP']}, Change = {data['change']}")
 else:
     print("Failed to retrieve market indices.")
+```
 
-</code>
+
